@@ -1,0 +1,28 @@
+.scroll-top {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    width: 40px;
+    height: 40px;
+    z-index: 99;
+    color: white;
+    display: none;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 5px;
+    background: linear-gradient(267deg, #b415ff 0.36%, #04FA9C 102.06%);
+    -webkit-animation: pulse 2s infinite;
+    animation: pulse 2s infinite;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.scroll-top img {
+    width: 15px;
+    height: 15px;
+}
+
+.active-scroll-top {
+    display: inline-flex;
+}
