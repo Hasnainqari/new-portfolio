@@ -8,4 +8,9 @@ body {
     color: white;
     background-color: #161513;
     font-family: "outfit";
+    text-decoration: none;
+}
+
+a{
+    text-decoration: none;
 }

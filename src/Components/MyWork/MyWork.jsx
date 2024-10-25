@@ -13,7 +13,7 @@ const MyWork = () => {
       </div>
       <div className="mywork-container">
         {Mywork_Data.map((work, index) => {
-          return <img key={index} src={work.w_img} alt="work" />;
+          return <img className="for_radius" key={index} src={work.w_img} alt="work" />;
         })}
       </div>
       <div className="mywork-showmore">

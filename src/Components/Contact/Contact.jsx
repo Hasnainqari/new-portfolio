@@ -23,7 +23,7 @@ const Contact = () => {
     const data = await response.json();
 
     if (data.success) {
-      alert("Form Submitted Successfully")
+      alert("Form Submitted Successfully");
       setResult("Form Submitted Successfully");
       event.target.reset();
     } else {
@@ -49,11 +49,15 @@ const Contact = () => {
           <div className="contact-details">
             <div className="contact-detail">
               <img src={email} alt="email" />
-              <p>hasnainqari036@gmail.com</p>
+              <a href="mailto:hasnainqari036@gmail.com">
+                <p>hasnainqari036@gmail.com</p>
+              </a>
             </div>
             <div className="contact-detail">
               <img src={call} alt="call" />
-              <p>+92 3243343 722</p>
+              <a href="tel:+92 3243343 722">
+                <p>+92 3243343 722</p>
+              </a>
             </div>
             <div className="contact-detail">
               <img src={location} alt="location" />
@@ -62,12 +66,27 @@ const Contact = () => {
           </div>
         </div>
         <form onSubmit={onSubmit} className="contact-right">
-          <label htmlFor="">Your Name</label>
-          <input type="text" placeholder="Enter your name" name="name" />
-          <label htmlFor="">Your Email</label>
-          <input type="email" placeholder="Enter your email" name="email" />
+          <label htmlFor="">Your name</label>
+          <input
+            required
+            type="text"
+            placeholder="Enter your name"
+            name="name"
+          />
+          <label htmlFor="">Your email</label>
+          <input
+            required
+            type="email"
+            placeholder="Enter your email"
+            name="email"
+          />
           <label htmlFor="">Write your message here</label>
-          <textarea rows="8" placeholder="Enter your message" name="message" />
+          <textarea
+            required
+            rows="8"
+            placeholder="Enter your message"
+            name="message"
+          />
           <button type="submit" className="contact-submit">
             Submit now
           </button>

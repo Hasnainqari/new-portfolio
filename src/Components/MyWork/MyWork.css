@@ -24,6 +24,9 @@
     z-index: -1;
 }
 
+.for_radius{
+    border-radius: 10px;
+}
 
 .mywork-container {
     display: grid;
