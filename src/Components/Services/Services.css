@@ -60,7 +60,7 @@
 .services-format p {
     font-size: 24px;
     line-height: 40px;
-    max-width: 300px;
+    max-width: 400px;
     color: #d4d4d4;
 }
 
@@ -78,6 +78,7 @@
     transform: scale(1.05);
     transition: 0.4s;
 }
+
 
 @media(max-width: 768px) {
     .services {
@@ -116,7 +117,7 @@
     }
 
     .services-container {
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr;
         gap: 30px;
     }
 }
