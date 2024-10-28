@@ -2,7 +2,7 @@ import React from "react";
 import "./Hero.css";
 import profile from "../../assets/profile.jpeg";
 import AnchorLink from "react-anchor-link-smooth-scroll";
-import CV from  "../../assets/hasnainqari.pdf"
+import CV from "../../assets/hasnainqari.pdf";
 
 const Hero = () => {
   return (
@@ -17,14 +17,6 @@ const Hero = () => {
         delivered projects to many happy clients over globle.
       </p>
       <div className="hero-action">
-        <AnchorLink
-          className="hero-connect anchor-link"
-          offset={50}
-          href="#contact"
-        >
-          Connect With Me
-        </AnchorLink>
-
         <a
           download="hasnainqari.pdf"
           href={CV}
@@ -32,6 +24,13 @@ const Hero = () => {
         >
           My Resume
         </a>
+        <AnchorLink
+          className="hero-connect anchor-link"
+          offset={50}
+          href="#contact"
+        >
+          Connect With Me
+        </AnchorLink>
       </div>
     </div>
   );
