@@ -22,15 +22,15 @@ const About = () => {
         <div className="about-right">
           <div className="about-para">
             <p>
-              I am an experienced Frontend Developer with over a decade of
-              professional expertise in the field. Throughout my career, I have
-              had the privilege of collaborating with prestigious organizations,
-              contributing to their success and growth.
+              I am a seasoned Frontend Developer with more than ten years of
+              professional experience. Over the course of my career, I’ve had
+              the opportunity to work with renowned organizations, playing a key
+              role in their success and development.
             </p>
             <p>
-              My passion for frontend development is not only reflected in my
-              extensive experience but also in the enthusiasm and dedication I
-              bring to each project.
+              My deep commitment to frontend development shines through both my
+              extensive experience and the energy and dedication I bring to
+              every project.
             </p>
           </div>
           <div className="about-skills">

@@ -30,11 +30,14 @@ const Footer = () => {
             <img src={user_icon} alt="user_icon" />
             <input type="email" name="email" placeholder="Enter your email" />
           </div> */}
-          <div className="footer-subscribe">
-            <a target="_blank" href="https://www.google.com/search?q=hasnain+qari&sca_esv=ecf90fb16855ea79&authuser=1&sxsrf=ADLYWIJx7p1G_k2pHtNocDqP-WI7CWKocQ%3A1729840143123&source=hp&ei=D0QbZ_r6BNulkdUP3piRqA0&iflsig=AL9hbdgAAAAAZxtSHy9EemPhpjzeAid_rq7N2-MEzDVe&oq=hasnain&gs_lp=Egdnd3Mtd2l6IgdoYXNuYWluKgIIADIKECMYgAQYJxiKBTIFEAAYgAQyChAAGIAEGEMYigUyDRAuGIAEGLEDGEMYigUyBRAAGIAEMgoQABiABBhDGIoFMgUQLhiABDIFEAAYgAQyBRAuGIAEMgUQLhiABEiKHlDDEVi7FnABeACQAQCYAeYBoAHiCqoBBTAuNS4yuAEDyAEA-AEBmAIIoAKJC6gCCsICBxAjGCcY6gLCAgQQIxgnwgILEAAYgAQYkQIYigXCAggQLhiABBixA8ICDhAAGIAEGLEDGIMBGIoFwgIIEAAYgAQYsQPCAhEQLhiABBiRAhjRAxjHARiKBcICCxAAGIAEGLEDGIMBwgIKEC4YgAQYQxiKBcICDRAAGIAEGLEDGEMYigXCAgsQLhiABBixAxjUApgDCZIHBTEuNC4zoAfqXA&sclient=gws-wiz#lrd=0x61cb5a5230cd3a49:0x375f4c5346fcb3f7,3,,,,">
-              Add your review
-            </a>
-          </div>
+
+          <a
+            className="footer-subscribe"
+            target="_blank"
+            href="https://www.google.com/search?q=hasnain+qari&sca_esv=ecf90fb16855ea79&authuser=1&sxsrf=ADLYWIJx7p1G_k2pHtNocDqP-WI7CWKocQ%3A1729840143123&source=hp&ei=D0QbZ_r6BNulkdUP3piRqA0&iflsig=AL9hbdgAAAAAZxtSHy9EemPhpjzeAid_rq7N2-MEzDVe&oq=hasnain&gs_lp=Egdnd3Mtd2l6IgdoYXNuYWluKgIIADIKECMYgAQYJxiKBTIFEAAYgAQyChAAGIAEGEMYigUyDRAuGIAEGLEDGEMYigUyBRAAGIAEMgoQABiABBhDGIoFMgUQLhiABDIFEAAYgAQyBRAuGIAEMgUQLhiABEiKHlDDEVi7FnABeACQAQCYAeYBoAHiCqoBBTAuNS4yuAEDyAEA-AEBmAIIoAKJC6gCCsICBxAjGCcY6gLCAgQQIxgnwgILEAAYgAQYkQIYigXCAggQLhiABBixA8ICDhAAGIAEGLEDGIMBGIoFwgIIEAAYgAQYsQPCAhEQLhiABBiRAhjRAxjHARiKBcICCxAAGIAEGLEDGIMBwgIKEC4YgAQYQxiKBcICDRAAGIAEGLEDGEMYigXCAgsQLhiABBixAxjUApgDCZIHBTEuNC4zoAfqXA&sclient=gws-wiz#lrd=0x61cb5a5230cd3a49:0x375f4c5346fcb3f7,3,,,,"
+          >
+            Add your review
+          </a>
         </div>
       </div>
       <hr />

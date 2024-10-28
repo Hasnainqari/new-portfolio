@@ -60,6 +60,7 @@
 }
 
 .footer-subscribe {
+    color: white;
     font-size: 20px;
     padding: 22px 50px;
     border-radius: 50px;
@@ -68,9 +69,6 @@
     background: linear-gradient(264deg, #b415ff -5.09%, #04fa9c 106.28%);
 }
 
-.footer-subscribe a {
-    color: white;
-}
 
 .footer-subscribe:hover {
     transform: scale(1.1);
