@@ -1,4 +1,6 @@
-## <a align="center" name="quick-start">🤸 If you visit my Repository give Star⭐ and Follow</a>
+<div>
+    ## <a align="center" name="quick-start">🤸 If you visit my Repository give Star⭐ and Follow</a>
+</div>
 
 <h3 align="center">A Modern Dev Portfolio</h3>
 
