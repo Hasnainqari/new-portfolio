@@ -22,7 +22,7 @@ const About = () => {
         <div className="about-right">
           <div className="about-para">
             <p>
-              I am a seasoned Frontend Developer with more than ten years of
+              I am a seasoned Frontend Developer with more than two years of
               professional experience. Over the course of my career, I’ve had
               the opportunity to work with renowned organizations, playing a key
               role in their success and development.
