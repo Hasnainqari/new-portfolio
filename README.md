@@ -1,9 +1,19 @@
+<div align="center">
+    
+## <a  name="quick-start">🤸 If you visit my Repository give Star⭐ and Follow</a>
+</div>
+
 <h3 align="center">A Modern Dev Portfolio</h3>
 
 <div align="center">
     <img src="https://img.shields.io/badge/-React_JS-black?style=for-the-badge&logoColor=white&logo=react&color=61DAFB" alt="react.js" />
     <img src="https://img.shields.io/badge/html-black?style=for-the-badge&logoColor=white&logo=html&color=DD4B25" alt="html" />
     <img src="https://img.shields.io/badge/css-black?style=for-the-badge&logoColor=white&logo=css&color=2785E4" alt="css" />
+</div>
+<div align="center">
+    
+## <a name="quick-start">🤸 Tutorial on Youtube</a>
+[![Watch the video](https://img.youtube.com/vi/9LYe7K7b-Fw/hqdefault.jpg)](https://www.youtube.com/watch?v=9LYe7K7b-Fw)
 </div>
 
 ## <a name="tech-stack">⚙️ Tech Stack</a>
