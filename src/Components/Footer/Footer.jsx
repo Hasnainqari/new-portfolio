@@ -22,7 +22,8 @@ const Footer = () => {
             <img src={themePattern} alt="logo" />
           </div>
           <p>
-            I am a frontend developer from, Pakistan with 3 years of experience.
+            A dedicated and disciplined frontend develoepr who love to website
+            with latest technology.
           </p>
         </div>
         <div className="footer-top-right">
